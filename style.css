@@ -1,17 +1,28 @@
 *{
     box-sizing: border-box;
-    max-width: 1920px;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 24px;
 }
 
 .header-section{
     background: rgba(255, 144, 14, 0.1);
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .nav-section{
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
-    margin: 0 auto;
+    max-width: 1440px;
+    margin: auto;
 }
 .nav-title{
 color: rgb(19, 19, 19);
@@ -35,3 +46,33 @@ width: 302px;
     font-weight: 500;
 }
 
+.banner-section{
+    max-width: 1440px;
+    margin:  auto;
+    text-align: center;
+}
+
+
+.banner-title{
+    text-align: center;
+    max-width: 529px;
+    margin: 0 auto;
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+    margin-bottom: 15px;
+}
+
+.banner-subtitle{
+    max-width: 864px;
+    font-size: 1rem;
+    color: rgb(114, 114, 114);
+    font-weight: 400;
+    margin: auto;
+    margin-bottom: 33px;
+}
+
+.banner-img{
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
