@@ -1,3 +1,37 @@
 *{
     box-sizing: border-box;
+    max-width: 1920px;
 }
+
+.header-section{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.nav-title{
+color: rgb(19, 19, 19);
+font-size: 45px;
+font-weight: 700;
+width: 302px;
+}
+
+.nav-links-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-links-item li a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+}
+
